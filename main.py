@@ -13,8 +13,8 @@ account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
 
 parameters= {
-    "lat":PARALLUVIALAT,
-    "lon": PARALLUVIALON,
+    "lat":MY_LAT,
+    "lon": MY_LON,
     "appid": API_KEY,
     "lang": "es",
     "cnt": 4,
